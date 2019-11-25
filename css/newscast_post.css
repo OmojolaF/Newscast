@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+img {
+    border-radius: 50px;
+    width: 35px;
+    float: left;
+    margin-bottom: 9px;
+}
+body {
+    background: #f8f8f8;
+    line-height: 1.5;
+    font-family: SFProText;
+    color: #666;
+}
+svg {
+    margin-right: 9px;
+}
+svg.fa-heart {
+    color: #EF4752;
+}
+.btn {
+    border: none;
+    outline: none;
+}
+a, a.btn {
+    text-decoration: none;
+    color: #fff;
+}
+#header .beginning {
+    background: #fff;
+}
+#header .navbar {
+    background: #fff;
+    border: none;
+    margin: 0;
+    padding: 0 10px;
+}
+#header .navbar-header {
+    height: 50px;
+}
+#header .navbar-header img {
+    padding-top: 15px;
+    float: left;
+}
+#header .navbar-toggle {
+    float: left;
+    border: none;
+    color: #000;
+    margin: 10px 20px 10px 0;
+    background-color: transparent;
+}
+#header .navbar-toggle span {
+    height: 4.5px;
+    width: 30px;
+}
+#header .navbar-toggle:hover {
+    background: #f7f5f5;
+}
+#menu .nav li input {
+    margin: 15px 575px 15px -20px;
+    border: none;
+    box-shadow: none;
+}
+#menu .dropdown a {
+    background: transparent;
+}
+#menu .dropdown a:hover {
+    color: #58b640;
+}
+#menu .dropdown ul li:hover {
+ transform: translateX(5px);
+ transition: all 0.3s ease-in-out;
+}
+#content {
+    margin: 70px 0 10px 0;
+}
+#content a {
+    color: #3B8EDE;
+}
+#content .main_info h1 {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#content .profiles {
+    float: left;
+    letter-spacing: 0.5px;
+    margin: 0 15px;
+}
+#content .profiles h5 {
+    font-size: 13px;
+    line-height: 0.7;
+}
+#content .main_info small {
+    font-size: 11px;
+    color: #818488;
+}
+#content .main_info li {
+    display: inline-block;
+    line-height: 0.4;
+    padding: 0 20px;
+    text-align: center;
+    border-left: 1px solid #979797;
+}
+#content .main_info h5 {
+    margin: 4px 0 0;
+}
+#content .main_info li h5 {
+    margin: 0 0 5px 0;
+}
+#content .main_info p a {
+    color: #3B8EDE;
+}
+#myCarousel {
+    margin: 30px 0 20px 0;
+}
+#myCarousel img {
+    width: 100%;
+    height: 360px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+#myCarousel .carousel-indicators {
+    bottom: -20px;
+}
+#myCarousel .carousel-indicators li {
+    background-color: #E0E0E0;
+}
+#myCarousel .carousel-indicators li.active {
+    background-color: #3B8EDE;
+}
+#content .information p {
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+#content .user_comment h5 {
+    padding-bottom: 10px;
+    margin: 40px 0 30px 0;
+    border-bottom: 2px solid #3B8EDE;
+}
+svg.fa-comment, .fa-share {
+    margin-left: 9px;
+}
+.user_comment {
+    margin: 8px 0;
+}
+.user_comment textarea {
+    border-radius: 50px;
+    position: relative;
+    width: auto;
+    margin-left: 20px;
+    padding: 6px 475px 6px 12px;
+    display: inline-block;
+}
+.user_comment textarea:focus {
+    box-shadow: none;
+}
+.icon {
+    position: absolute;
+    right: 130px;
+    top: calc(50% - 17px/2 + 343.5px);
+}
+a svg {
+    color: #444;
+}
+a svg:hover {
+    color: #58b640;
+}
+.user_comment a svg {
+    margin-top: 7px; 
+}
+#content .other_comment a {
+    font-weight: 600;
+}
+#content .other_comment a:hover {
+    text-decoration: none;
+}
+#content .about_comment {
+    margin-left: 47px;
+}
+#content .first_comment {
+    padding: 10px 0;
+}
+#content .reply_comment {
+    padding: 10px 0 20px 40px;
+}
+#content .reply-reply_comment {
+    padding: 10px 0 20px 80px;
+}
+#content aside .part0, .part1{
+    background: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0 20px 20px 20px;
+    border-radius: 8px; 
+    box-shadow: 0 10px 10px 0 #fdfdfdb7;
+    margin-bottom: 35px;
+}
+#content aside .part0 img {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+    border-radius: 200px;
+    padding: 20px;
+}
+#content aside .part0 h1, h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: normal;
+}
+#content aside .part0 h2 {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#content aside .part0 p {
+    line-height: 1.9;
+    color: #222;
+    font-family: Lato;
+    letter-spacing: 0.5px;
+    margin: 15px 0;
+}
+#content aside .part0 a.btn {
+    padding: 7px 30px;
+    background: #1da1f2;
+    width: 100%;
+    color: #fff;
+    margin: 10px 0;
+}
+#content aside .part0 a.btn:hover {
+    border: 1px solid #58b640;
+    background: #e2e20a;
+}
+#content aside .part1 {
+    text-align: start;
+    letter-spacing: normal;
+}
+#content aside .part1 h4 {
+    padding: 20px 20px 10px 20px;
+    margin: 12px -20px;
+    color: #bbbbbb;
+    font-size: 12px;
+    border-bottom: 1px solid #ededed;
+}
+#content aside .suggest li {
+    padding: 5px 20px 15px 20px;
+    margin: 5px -20px;
+}
+#content aside .suggest li img {
+    margin-right: 10px;
+    width: 75px;
+}
+#content aside .profiles {
+    float: none;
+    margin: 5px 0 0 0;
+}
+#content aside .suggest h5 {
+    font-size: 13px;
+    line-height: normal;
+    margin: 0 0 7px 0;
+}
+#content aside .suggest small {
+    color: #c0c0c0;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+#content aside .see {
+    border-top: 1px solid #ededed;
+    text-align: center;
+    padding: 15px 30px 0 30px;
+    margin: 10px -20px 0;
+    font-weight: 600;
+    font-size: 12px;
+}
+#content aside .see a {
+    color: #bbbbbb;
+} 
+#content aside .see a:hover {
+    color: #58b640;
+    text-decoration: none;
+}
+#footer .rest, .tc {
+    text-align: center;
+    margin: 8px 0;
+    color: #bebebe;
+} 
+#footer .rest a {
+    color: #999;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0 4px;
+}
+#footer .rest a:hover {
+    color: #174921;
+}
+#footer .tc {
+    padding-bottom: 15px;
+    margin-bottom: 70px
+}
+#footer .comment_user {
+    background: #fff;
+    margin-top: 10px;
+    border-top: 1px solid #ededed;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+@media screen and (max-width: 760px) {
+    #menu .navbar-default, .navbar-collapse {
+        border: none;
+    }
+    #menu .nav li a {
+        padding: 5px 0;
+    }
+    #menu .nav li input {
+        margin: 5px 0 -5px 0;
+        border: 1px solid #bebebe;
+    }
+    #content {
+        margin: 40px 0 10px;
+    }
+    #content .main_info h1 {
+        font-size: 20px;
+    }
+    #content .main_info ul.about_post {
+        display: inline-block;
+        margin: 10px 0 0 15px;
+    }
+    #content .main_info li {
+        padding: 0 10px;
+        border: none; 
+        border-right: 1px solid #979797;
+    }
+    #content .main_info li.not {
+        border: none;
+    }
+    #myCarousel img {
+        height: 250px;
+    }
+    #content .information p {
+        letter-spacing: normal;
+    }
+    #content .user_comment textarea {
+        padding: 6px 15px 6px 10px;
+    }
+    #content .icon {
+        right: 2.1rem;
+        top: 1rem;
+    }
+    #content aside .suggest li img {
+        width: 50px;
+    }
+    #footer .user_comment textarea {
+        width: auto;
+        padding: 6px 25px;
+        display: inline-block;
+    }
+    #footer .icon {
+        right: 2.1rem;
+        top: 1rem;
+    }
+}
+@media screen and (min-width:760px) and (max-width: 1200px) {
+    #menu .nav li input {
+        margin: 15px 350px 15px 0;
+    }
+    #content aside .part0 h2 {
+        text-align: center;
+        font-size: 13.5px;
+    }
+    #content .user_comment textarea {
+        padding: 6px 220px 6px 12px;
+    }
+}

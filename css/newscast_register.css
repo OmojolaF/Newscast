@@ -1,0 +1,77 @@
+.modal-body {
+    padding: 0 0 0 0;
+}
+.logo {
+    background-image: url("../image/bg_call_section.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #88888800;
+    height: 570px;
+}
+#main_page {
+    padding: 10px;
+    line-height: 1.7;
+}
+@media screen and (min-width: 480px) {
+    #main_page {padding: 20px 20px 20px 0;}
+}
+@media screen and (max-width: 480px) {
+    .logo {visibility: hidden;}
+    #main_page {margin: -500px 0 -30px 0;
+                background: #fff;
+                border-radius: 5px;
+                padding-bottom: 80px;
+                margin-bottom: 10px;}
+}
+#main_page .logo_header {
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+#main_page .logo_header img {
+    float: none;
+    width: 100%;    
+    border-radius: 0;
+}
+#main_page input {
+    border: 1px solid #c5c5c55b;
+    box-shadow: none;
+    height: 44px;
+}
+#main_page .user_post input {
+    color: #c5c5c55b;
+}
+#main_page label {
+    color: #222;
+    font-weight: 500;
+}
+#main_page a.btn {
+    padding: 10px 30px;
+    width: 100%;
+    font-weight: 600;
+    margin-bottom: 6px;
+    border: 1px solid #1da1f2;
+}
+#main_page a, h5 {
+    text-align: center;
+    line-height: 1.7;
+    font-weight: 500;
+    margin: 15px 0;
+}
+#main_page a {
+    font-weight: 600;
+    color: #1da1f2;
+    text-decoration: none;
+}
+#main_page a.btn:hover {
+    background: #1da1f2;
+}
+#main_page a:hover {
+    color: #fff; 
+    transition: all 0.3s ease-in-out;
+    transform: translateY(3px);
+}
+#main_page h5 a:hover {
+    color: #58b640;
+    text-decoration: underline;
+}
